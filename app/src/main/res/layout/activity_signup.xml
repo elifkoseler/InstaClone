@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="ForgotPassword"
     tools:context=".SignUpActivity">
 
     <Button
@@ -56,6 +57,14 @@
         android:textAlignment="center"
         app:layout_constraintStart_toStartOf="@+id/button"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="431dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
